@@ -7,17 +7,17 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;  
     background-color: #121212;
+    font-size: calc(0.25rem + 0.75vw);
 }
 
 .nav-bar {
-    width: 100vw;
+    width: 100%;
     height: 50px;
     background-color: #272727;
     position: fixed;
 }
 .wraper {
-  
-    display: flex;
+      display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -28,9 +28,7 @@ body {
     margin-top: 60px;
     display: block;
     width: 85vw;
-    background-color: #272727;
-    
-    
+    background-color: #272727;       
 
 }
 
@@ -42,5 +40,6 @@ tr:first-child{
     border: none;
 }
 td {
-    border: none;
+    border-top: 1px solid #121212;
+    padding-left: 10px;
 }
