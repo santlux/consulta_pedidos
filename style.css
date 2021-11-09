@@ -11,18 +11,17 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: var(--dark-bkg);
-    color: #ffffff;
+    color: black;
     font-family:'Exo', sans-serif;  
-    font-size: calc(0.35rem + 0.45vw);
+    font-size: calc(12px + 0.3vw);
     text-align: left;
 }
 
 .nav-bar {
+  background-color: white;
     top: 0;
     width: 100%;
     height: 110px;
-    background-color: var(--dark-bkg);
     position: fixed;
 }
 .texto-logo , .search{
@@ -30,24 +29,17 @@ body {
   width: 100%;
   height: 50%;
   padding-left: 50px;
-  font-family: 'Exo', sans-serif;
   font-weight: 900;
   font-size: 2.5vw;
-  letter-spacing: 5px;
-  
+  letter-spacing: 5px;  
   display: flex;
   align-items: center;
 }
 input {
-    font-size: calc(0.35rem + 0.45vw);
-
     padding-left: 50px;
-    color: #ffff;
     border: 1px solid var(--dark-table);
-    height: 5vh;
+    height: 3vh;
     width: 35%;
-    background-color: var(--dark-bkg);
-    font-family: 'Exo', sans-serif;
     letter-spacing: 3px;
     background-image: url(/images/white_search.png);
     background-repeat: no-repeat;
@@ -55,23 +47,21 @@ input {
     background-size: calc(2.5% + 1vw);
     outline: none;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
     margin-bottom: 2%;
 }
 
 #tabelaDados {
   margin: 0 auto;
     margin-top: 110px;
-    background-color: var(--dark-table); 
+
     border-collapse: collapse;
-    border: 1px solid var(--dark-header);
+
     table-layout: fixed;
     width: 95%;  
   
 }
 #tabelaDados td {
-    border: 1px solid var(--dark-header); 
+
     height: 35px;
     padding-left: 10px;
   }
@@ -84,13 +74,13 @@ input {
   height: 50px;
   position: sticky;
   top: 110px; 
-  background-color: var(--dark-header);
+  background-color: white;  
   z-index: 9999;
   padding-left: 10px;
-  width: 2vw;
+  width: 14%;
   
   }
   th:nth-child(3){
     padding-left: 10px;
-    width: 10vw;
+    width: 30%;
   }

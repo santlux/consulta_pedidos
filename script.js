@@ -1,5 +1,5 @@
 // ABRE ARQUIVO CSV E CRIA TABELA
-onload = fetch("./data.csv").then(res => {
+onload = fetch("./DADOS.CSV").then(res => {
     return res.text()
 }).then(data => {
     let result = data.split(/\r?\n|\r/).map(e => {
@@ -15,10 +15,11 @@ onload = fetch("./data.csv").then(res => {
             document.querySelector("table").appendChild(ce);
         }
         // console.log(m);
-
     })
 
   });
+
+
 
 
   /// FILTRAR MULTIPLAS COLUNAS
@@ -50,7 +51,4 @@ onload = fetch("./data.csv").then(res => {
     
   }
 /// COLORIR ROWS 
-
-
-
 
